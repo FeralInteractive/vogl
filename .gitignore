@@ -23,3 +23,6 @@ voglinc/
 *.swp
 
 _out*/
+
+.DS_Store
+feral/cmake_build
