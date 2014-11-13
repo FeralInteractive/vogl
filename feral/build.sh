@@ -20,5 +20,5 @@ fi
 mkdir -p cmake_build
 cd       cmake_build
 
-cmake ../.. -DCMAKE_PREFIX_PATH=/usr/local/Cellar/qt5/5.3.2/
+cmake ../.. -DCMAKE_PREFIX_PATH=/usr/local/Cellar/qt5/5.3.2/ -DVOGL_ENABLE_ASSERTS=TRUE
 make -j$NUMJOBS
